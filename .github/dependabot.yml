@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: "/src/DeadlyProject.Api"
+    schedule:
+      interval: daily
+  - package-ecosystem: npm
+    directory: "/src/DeadlyProject.Client"
+    schedule:
+      interval: daily
