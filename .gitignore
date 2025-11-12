@@ -1,0 +1,37 @@
+# Binaries
+**/[Bb]in/*
+**/[Oo]bj/*
+
+# Dependencies
+/packages
+node_modules/
+
+# IDE specific
+.idea/
+.vscode/
+*.suo
+*.sln
+*.user
+*.DS_Store
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.yml
+
+# Environment variables
+.env
+*.env
+*.config
+
+# Build results
+/dist
+/build
+
+# Logs
+*.log
+
+# Temporary files
+*~
+
+# Other
+/coverage
